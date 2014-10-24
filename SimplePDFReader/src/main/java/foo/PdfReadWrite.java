@@ -14,7 +14,6 @@ public class PdfReadWrite
 {
 	public static void main(String[] args) throws IOException {
 
-
         URL oracle = new URL("http://ceoaperms.ap.gov.in/Electoral_Rolls/PDFGeneration.aspx?urlPath=D:\\FinalRolls_2014\\AC_212\\English\\AC212_FIN_E_093.PDF");
         InputStream  in = oracle.openStream();
         
